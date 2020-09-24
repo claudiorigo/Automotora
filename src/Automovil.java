@@ -47,10 +47,11 @@ public class Automovil {
     }
     
     public void imprimirAuto(){
-        System.out.println("Kilometros " + this.kilometro);
-        System.out.println("Nro Chasis " + this.numeroChasis);
-        System.out.println("Cargo Fijo " + Math.round(this.cargoFijo));
-        System.out.println("Valor " + Math.round(this.valor));
+        System.out.println("Kilometros " + this.getKilometro());
+        System.out.println("Nro Chasis " + this.getNumeroChasis());
+        System.out.println("Cargo Fijo " + Math.round(this.getCargoFijo()));
+        System.out.println("Valor " + Math.round(this.getValor()));
+        System.out.println("------------------------------------------");
     }
     
     
